@@ -1,0 +1,256 @@
+@import url(./reset.css);
+
+* {
+    /* outline: 1px dotted #333; */
+}
+
+html, body, main {
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Source Sans Pro', sans-serif; */
+}
+
+body>nav {
+    padding: 2em 3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 5px rgb(210, 210, 210);
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.icon {
+    color: #b08968;
+    font-size: 30pt;
+}
+
+.navigation {
+    display: flex;
+    gap: 2em;
+}
+
+.navigation a {
+    color: #000;
+    font-weight: bold;
+    font-size: 14pt;
+    text-decoration: none;
+    letter-spacing: 1.2px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.location i {
+    font-size: 15pt;
+}
+
+.location div {
+    font-size: 13pt;
+}
+
+.nav-right a {
+    font-size: 13pt;
+    text-decoration: none;
+    color: #000;
+    background: none;
+    padding: 0.5em 1em;
+    border: 1px solid #000;
+    border-radius: 40px;
+    transition: all 0.4s ease;
+}
+
+.nav-right a:hover {
+    background: #000;
+    color: #fff;
+}
+
+header{
+    height: 100%;
+    padding: 1em 25em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1em;
+}
+
+h1{
+    font-size: 40pt;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+header > p{
+    font-size: 16pt;
+    line-height: 1.5;
+}
+
+.header-img{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/headerImg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.homeCoffee{
+    height: 100%;
+    padding: 2em 25em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1em;
+}
+
+.homeCoffee h2{
+    font-size: 28pt;
+    font-weight: bolder;
+}
+
+.homeCoffee p{
+    font-size: 16pt;
+    line-height: 1.5;
+}
+
+.homeCoffee a{
+    text-decoration: none;
+    color: #fff;
+    background: #b08968;
+    font-weight: bold;
+    border: 1px solid #b08968;
+    border-radius: 40px;
+    padding: 0.5em 1em;
+    transition: all 0.4s ease;
+}
+
+.homeCoffee a:hover{
+    background: none;
+    color: #b08968;
+}
+
+.homeCoffeeImg{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/homeCoffee.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.brew{
+    height: 40%;
+    padding: 2em 25em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2em;
+}
+
+.brew h2{
+    font-size: 28pt;
+    font-weight: bolder;
+}
+
+.brew p{
+    font-size: 16pt;
+    line-height: 1.5;
+}
+
+.brew a{
+    text-decoration: none;
+    color: #fff;
+    background: #b08968;
+    font-weight: bold;
+    border: 1px solid #b08968;
+    border-radius: 40px;
+    padding: 0.5em 1em;
+    transition: all 0.4s ease;
+}
+
+
+.brew a:hover{
+    background: none;
+    color: #b08968;
+}
+
+.bottom{
+    padding: 2em;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.services{
+    width: 100%;
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    border-bottom: 1px solid rgb(150, 150, 150);
+}
+
+.services div{
+    color: rgb(128, 128, 128);
+    font-size: 13pt;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.serviceTitle{
+    color: #000 !important;
+    font-weight: bold;
+}
+
+.socialMedia{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.socialMedia a{
+    text-decoration: none;
+    font-size: 25pt;
+    color: #000;
+}
+
+.bottomOther{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    font-size: 13pt;
+}
+
+.bottomOther a{
+    text-decoration: none;
+    color: #000;
+    border-right: 1px solid #000;
+    padding: 0em 1em;
+}
+
+.bottomFinal{
+    color: #b08968;
+    font-weight: bold;
+}
+
+footer{
+    color: rgb(128, 128, 128);
+    padding: 1em 2em;
+}
