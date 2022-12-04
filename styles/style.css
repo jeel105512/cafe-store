@@ -26,8 +26,12 @@ body>nav {
 }
 
 .icon {
-    color: #b08968;
     font-size: 30pt;
+}
+
+.icon a{
+    color: #b08968;
+    text-decoration: none;
 }
 
 .navigation {
